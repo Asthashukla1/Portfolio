@@ -246,26 +246,26 @@ export const SkillsInfo = [
         "A React-based personal portfolio website to showcase projects, skills, and achievements. Featuring a modern design, smooth navigation, and responsive layout, it provides a professional and interactive experience for visitors.",
       image: portfolio,
       tags: ["React JS", "API", "Search Feature","HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
+      github: "https://github.com/Asthashukla1/Portfolio",
+      webapp: "https://portfolio-gold-mu-72.vercel.app/",
       
     },
-    {
-      id: 4,
-      title: "Mentor Connect",
-      description:
-        "A React-based web platform that connects students with mentors for guidance and support. Featuring an intuitive interface, seamless communication, and profile management, it helps users find the right mentorship and track their learning journey effectively.",
-      image: mentor,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+    // {
+    //   id: 4,
+    //   title: "Mentor Connect",
+    //   description:
+    //     "A React-based web platform that connects students with mentors for guidance and support. Featuring an intuitive interface, seamless communication, and profile management, it helps users find the right mentorship and track their learning journey effectively.",
+    //   image: mentor,
+    //   tags: ["HTML", "CSS", "JavaScript"],
+    //   github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
+    //   webapp: "https://githubprofiledetective.netlify.app/",
       
-    },
+    // },
     {
       id: 5,
       title: "Tic-Tac-Toe",
       description:
-        "A classic Tic Tac Toe game featuring an interactive interface, responsive design, and smooth gameplay, it allows users to play against the computer while tracking scores in real-time.",
+        "A classic Tic Tac Toe game featuring an interactive interface, responsive design, and smooth gameplay, it allows users to play against each other while tracking scores in real-time.",
       image: tictactoe,
       tags: ["HTML", "CSS", "JavaScript"], 
       github: "https://github.com/Asthashukla1/Tic-Tac-Toe",
@@ -278,8 +278,8 @@ export const SkillsInfo = [
         "A fun and interactive Rock Paper Scissors game featuring smooth gameplay, real-time results, and an intuitive interface, it lets users challenge the computer and enjoy a classic game experience online.",
       image: rock,
       tags: ["HTML", "CSS", "JavaScript"], 
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
+      github: "https://github.com/Asthashukla1/Rock-Paper-Scissors",
+      webapp: "https://rock-paper-scissors-xi-beige.vercel.app/",
     },
     // {
     //   id: 7,

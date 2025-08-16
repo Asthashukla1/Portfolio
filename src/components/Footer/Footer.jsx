@@ -16,7 +16,7 @@ const Footer = () => {
         {/* Name / Logo */}
         <h2 className="text-xl font-semibold text-purple-500">Astha Shukla</h2>
 
-        {/* Navigation Links - Responsive */}
+        {/* Navigation Links - Responsive
         <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4">
           {[
             { name: "About", id: "about" },
@@ -33,10 +33,10 @@ const Footer = () => {
               {item.name}
             </button>
           ))}
-        </nav>
+        </nav> */}
 
         {/* Social Media Icons - Responsive */}
-        <div className="flex flex-wrap justify-center space-x-4 mt-6">
+        {/* <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
             { icon: <FaFacebook />, link: "https://www.facebook.com/tarun.kaushik.3511041/" },
             { icon: <FaTwitter />, link: "https://twitter.com/CodingMaster6?s=09" },
@@ -55,7 +55,7 @@ const Footer = () => {
               {item.icon}
             </a>
           ))}
-        </div>
+        </div> */}
 
         {/* Copyright Text */}
         <p className="text-sm text-gray-400 mt-6">
