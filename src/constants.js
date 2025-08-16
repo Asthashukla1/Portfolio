@@ -226,7 +226,7 @@ export const SkillsInfo = [
         "A note-taking and task management web app that allows users to create, organize, and track daily tasks and notes effortlessly, offering a clean interface and real-time updates to boost productivity.",
       image: taskly,
       tags: ["EJS","JavaScript","Express.js","Node.js"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
+      github: "https://github.com/Asthashukla1/Taskly",
       webapp: "https://taskly-vbfa.onrender.com/",
      },
     {
