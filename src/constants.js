@@ -26,7 +26,7 @@ import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
-import mcLogo from './assets/tech_logo/mc.png';
+import render from './assets/tech_logo/render.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
@@ -39,18 +39,18 @@ import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import ugi_logo from './assets/education_logo/ugi_logo.jpeg';
+import st_logo from './assets/education_logo/st_logo.jpeg';
+//import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
+import blog from './assets/work_logo/blog.png';
+import currency from './assets/work_logo/currency.png';
+import portfolio from './assets/work_logo/portfolio.png';
+import taskly from './assets/work_logo/taskly.png';
+import tictactoe from './assets/work_logo/tictactoe.png';
+import mentor from './assets/work_logo/mentor.png';
+import rock from './assets/work_logo/rock.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 
@@ -61,7 +61,7 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-     // { name: 'SASS', logo: sassLogo },
+      { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
      // { name: 'Angular', logo: angularLogo },
@@ -104,7 +104,7 @@ export const SkillsInfo = [
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       //{ name: 'Postman', logo: postmanLogo },
-      //{ name: 'Compass', logo: mcLogo },
+      { name: 'Render', logo: render },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
       { name: 'Figma', logo: figmaLogo },
@@ -180,31 +180,31 @@ export const SkillsInfo = [
     // },
     {
       id: 1,
-      img: bsaLogo,
+      img: ugi_logo,
       school: "United Institute of Technology, Prayagraj",
       date: "Sept 2022 - July 2024",
       grade: "8.1 CGPA",
-      desc: "I completed my Bachelor's degree in Computer Science and Engineering from United Institute of Technology, Prayagraj. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
+      desc: "I am currently pursuing my B.Tech in Computer Science and Engineering from United Institute of Technology, Prayagraj. My coursework has given me a strong foundation in computing and technology, covering areas like Data Structures and Algorithms, Web Development, and Database Management Systems. Alongside academics, I have worked on projects that apply theoretical concepts to real-world problems, helping me gain practical experience in software development and problem-solving.",
       degree: "Bachelor of Computer Science and Engineering",
     },
     {
-      id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
+       id: 2,
+       img: st_logo,
+       school: "St. John’s Co-Ed School, Prayagraj",
+       date: "Apr 2020- Mar 2021",
+       grade: "89%",
+       desc: "I completed my Class 12 education from St. John’s Co-Ed School, Prayagraj, under the ISC board, where I studied Physics, Chemistry, and Mathematics (PCM) along with Computer Science. This foundation helped me develop strong analytical and problem-solving skills, preparing me for further studies in technology.",
+       degree: "ISC (XII) - PCM with Computer Science"
     },
     {
       id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
-    },
+      img: st_logo,
+      school: "St. John’s Co-Ed School, Prayagraj",
+      date: "Apr 2018 - Mar 2019",
+      grade: "88.9",  // Replace XX with your actual percentage
+       desc: "I completed my Class 10 education from St. John’s Co-Ed School, Prayagraj, under the ICSE board. My schooling helped me build a strong foundation in core subjects while developing analytical thinking, discipline, and problem-solving skills.",
+      degree: "ICSE (X) - General"
+     }
   ];
   
   export const projects = [
@@ -213,7 +213,7 @@ export const SkillsInfo = [
       title: "BitLogue",
       description:
         "A React and Appwrite powered blog platform that lets users create, publish, and manage posts seamlessly, with real-time updates, intuitive profiles, and rich text editing for an engaging content experience.",
-      image: csprepLogo,
+      image: blog,
       tags: ["React JS", "Node.js", "AppWrite", "Express", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/Asthashukla1/BitLogue",
       webapp: "https://bit-logue.vercel.app",
@@ -224,7 +224,7 @@ export const SkillsInfo = [
       title: "Taskly",
       description:
         "A note-taking and task management web app that allows users to create, organize, and track daily tasks and notes effortlessly, offering a clean interface and real-time updates to boost productivity.",
-      image: taskremLogo,
+      image: taskly,
       tags: ["EJS","JavaScript","Express.js","Node.js"],
       github: "https://github.com/codingmastr/Task-Reminder-Tool",
       webapp: "https://taskly-vbfa.onrender.com/",
@@ -234,7 +234,7 @@ export const SkillsInfo = [
       title: "Currency Convertor",
       description:
         "A React-based web application that allows users to convert currencies instantly with real-time exchange rates. Featuring an intuitive interface and seamless user experience, it makes currency conversion fast and hassle-free.",
-      image: movierecLogo,
+      image: currency,
       tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/Asthashukla1/CurrencyConvertor",
       webapp: "https://currency-convertor-one-tau.vercel.app/",
@@ -244,7 +244,7 @@ export const SkillsInfo = [
       title: "Portfolio",
       description:
         "A React-based personal portfolio website to showcase projects, skills, and achievements. Featuring a modern design, smooth navigation, and responsive layout, it provides a professional and interactive experience for visitors.",
-      image: imagesearchLogo,
+      image: portfolio,
       tags: ["React JS", "API", "Search Feature","HTML", "CSS", "Javascript"],
       github: "https://github.com/codingmastr/Image-Search-App",
       webapp: "https://imagsearch.netlify.app/",
@@ -255,7 +255,7 @@ export const SkillsInfo = [
       title: "Mentor Connect",
       description:
         "A React-based web platform that connects students with mentors for guidance and support. Featuring an intuitive interface, seamless communication, and profile management, it helps users find the right mentorship and track their learning journey effectively.",
-      image: githubdetLogo,
+      image: mentor,
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
       webapp: "https://githubprofiledetective.netlify.app/",
@@ -266,7 +266,7 @@ export const SkillsInfo = [
       title: "Tic-Tac-Toe",
       description:
         "A classic Tic Tac Toe game featuring an interactive interface, responsive design, and smooth gameplay, it allows users to play against the computer while tracking scores in real-time.",
-      image: webverLogo,
+      image: tictactoe,
       tags: ["HTML", "CSS", "JavaScript"], 
       github: "https://github.com/Asthashukla1/Tic-Tac-Toe",
       webapp: "https://tic-tac-toe-nine-sand-71.vercel.app",
@@ -276,22 +276,22 @@ export const SkillsInfo = [
       title: "Rock-Paper-Scissor",
       description:
         "A fun and interactive Rock Paper Scissors game featuring smooth gameplay, real-time results, and an intuitive interface, it lets users challenge the computer and enjoy a classic game experience online.",
-      image: cmLogo,
+      image: rock,
       tags: ["HTML", "CSS", "JavaScript"], 
       github: "https://codingmasterweb.in/",
       webapp: "https://codingmasterweb.in/",
     },
-    {
-      id: 7,
-      title: "HealtCare Web Portal",
-      description:
-        "A comprehensive web platform that connects patients with healthcare providers, enabling appointment booking, medical record management, and real-time consultation tracking. The portal offers an intuitive interface and streamlined workflow to enhance patient care and simplify healthcare management.",
-      image: npmLogo,
-      tags: ["HTML", "CSS", "JavaScript"], 
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+    // {
+    //   id: 7,
+    //   title: "HealtCare Web Portal",
+    //   description:
+    //     "A comprehensive web platform that connects patients with healthcare providers, enabling appointment booking, medical record management, and real-time consultation tracking. The portal offers an intuitive interface and streamlined workflow to enhance patient care and simplify healthcare management.",
+    //  // image: npmLogo,
+    //   tags: ["HTML", "CSS", "JavaScript"], 
+    //   github: "https://github.com/codingmastr/cmtk-email-validator",
+    //   webapp: "https://www.npmjs.com/package/cmtk-email-validator",
       
-    },
+    // },
     // {
     //   id: 8,
     //   title: "Hacker-Hatch",

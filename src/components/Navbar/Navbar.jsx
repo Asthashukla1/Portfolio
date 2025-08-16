@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiLeetcode } from 'react-icons/si';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -85,6 +86,14 @@ const Navbar = () => {
           >
             <FaLinkedin size={24} />
           </a>
+           <a
+             href="https://leetcode.com/u/astha_shukla1/"  // replace with your actual LeetCode username
+             target="_blank"
+             rel="noopener noreferrer"
+             className="text-gray-300 hover:text-[#8245ec]"
+           >
+            <SiLeetcode size={24} />  {/* Make sure to import this icon: import { SiLeetcode } from 'react-icons/si'; */}
+         </a>
         </div>
 
         {/* Mobile Menu Icon */}
