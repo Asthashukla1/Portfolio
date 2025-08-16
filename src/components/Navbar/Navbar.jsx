@@ -69,7 +69,7 @@ const Navbar = () => {
         </ul>
 
         {/* Social Icons */}
-        <div className="md:flex space-x-4">
+        <div className="hidden md:flex space-x-4">
           <a
             href="https://github.com/Asthashukla1"
             target="_blank"
