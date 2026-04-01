@@ -53,6 +53,7 @@ import mentor from './assets/work_logo/mentor.png';
 import rock from './assets/work_logo/rock.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import nextstep from './assets/work_logo/nextstep.png';
 
 
 export const SkillsInfo = [
@@ -210,6 +211,17 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "Next Step - AI Powered Career Assistant Platform",
+      description:
+       "AI-driven career mentorship platform enabling resume analysis, interview prep, and real-time guidance via chatbot. Leveraged Next.js, PostgreSQL, and Inngest to build scalable, low-latency workflows for personalized user experiences.",
+      image: nextstep,
+      tags: ["Next.js", "React", "Tailwind CSS", "PostgreSQL", "Prisma ORM", "Clerk Auth", "Google Gemini AI", "Inngest"],
+      github: "https://github.com/Asthashukla1/Next-Step---AI-Powered-Career-Assistance-Platform",
+      webapp: "https://next-step-ai-powered-career-assista.vercel.app/",
+      
+    },
+    {
+      id: 1,
       title: "BitLogue",
       description:
         "A React and Appwrite powered blog platform that lets users create, publish, and manage posts seamlessly, with real-time updates, intuitive profiles, and rich text editing for an engaging content experience.",
@@ -220,7 +232,7 @@ export const SkillsInfo = [
      
     },
     {
-      id: 1,
+      id: 2,
       title: "Taskly",
       description:
         "A note-taking and task management web app that allows users to create, organize, and track daily tasks and notes effortlessly, offering a clean interface and real-time updates to boost productivity.",
@@ -230,7 +242,7 @@ export const SkillsInfo = [
       webapp: "https://taskly-vbfa.onrender.com/",
      },
     {
-      id: 2,
+      id: 3,
       title: "Currency Convertor",
       description:
         "A React-based web application that allows users to convert currencies instantly with real-time exchange rates. Featuring an intuitive interface and seamless user experience, it makes currency conversion fast and hassle-free.",
@@ -239,17 +251,7 @@ export const SkillsInfo = [
       github: "https://github.com/Asthashukla1/CurrencyConvertor",
       webapp: "https://currency-convertor-one-tau.vercel.app/",
     },
-    {
-      id: 3,
-      title: "Portfolio",
-      description:
-        "A React-based personal portfolio website to showcase projects, skills, and achievements. Featuring a modern design, smooth navigation, and responsive layout, it provides a professional and interactive experience for visitors.",
-      image: portfolio,
-      tags: ["React JS", "API", "Search Feature","HTML", "CSS", "Javascript"],
-      github: "https://github.com/Asthashukla1/Portfolio",
-      webapp: "https://portfolio-gold-mu-72.vercel.app/",
-      
-    },
+    
     // {
     //   id: 4,
     //   title: "Mentor Connect",
